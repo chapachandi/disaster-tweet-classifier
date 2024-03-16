@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disaster Tweet Classifier</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f0f0f0;">
+    <h1 style="text-align: center; font-size: 2em; margin-bottom: 20px;">Disaster Tweet Classifier</h1>
+    <form action="/predict" method="post" style="display: flex; flex-direction: column; align-items: center; width: 500px; margin: 0 auto; border: 1px solid #ddd; border-radius: 5px; padding: 20px;">
+        <label for="text" style="margin-bottom: 5px; font-weight: bold;">Enter a tweet:</label>
+        <textarea name="text" id="text" rows="5" cols="50" style="padding: 10px; border: 1px solid #ddd; border-radius: 3px; resize: none;"></textarea>
+        <br>
+        <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; margin-top: 10px; border: none; border-radius: 5px; cursor: pointer;">Classify</button>
+    </form>
+</body>
+</html>
