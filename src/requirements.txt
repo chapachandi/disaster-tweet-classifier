@@ -1,0 +1,3 @@
+flask
+scikit-learn
+pickle5  # For model loading (more secure than pickle)
